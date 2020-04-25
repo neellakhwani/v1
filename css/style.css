@@ -1,0 +1,71 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: SF Pro Display;
+	
+}
+
+
+.landingpage{
+	background-image: url('../images/background_1.png');
+	background-size: cover;
+	background-color: #004A5A;
+	height: 100vh;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+.intro{
+	padding-top: 50vh;
+	margin: auto;
+	width: 50vw;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+}
+
+.projecttitle{
+	color: #9E9F9F;
+}
+
+.histare{
+	background-color: #282828;
+	height: 100vh;
+}
+
+.text{
+	padding-top: 40vh;
+	margin-left: 55vw;
+	width: 35vw;
+	border:1px solid white;
+}
+
+.histare-title{
+	font-weight: 800;
+	font-size: 60px;
+	color: #9E9F9F;
+	padding: 0;
+	margin: 0;
+	border:1px solid white;
+}
+
+.projectsubtitle{
+	color: #00C6AE;
+	font-weight: 600;
+	border:1px solid white;
+}
+
+.histare-text{
+	font-weight: 600;
+	color: #9E9F9F;
+	border:1px solid white;
+}
+
+.histare-logo{
+	height: 50%;
+	border:1px solid black;
+
+
+}
+
