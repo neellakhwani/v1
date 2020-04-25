@@ -127,7 +127,7 @@ body{
 @media only screen and (max-width: 768px) {
 
 .landingpage{
-	background-image: url('../images/background_1.png');
+	background-image: url('../images/background_2.png');
 	background-size: contain;
 	background-color: #004A5A;
 	height: 200vw;
@@ -175,7 +175,7 @@ body{
 
 .project-subtitle{
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 15px;
 	padding-bottom: 16px;
 }
 
