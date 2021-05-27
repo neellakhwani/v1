@@ -232,4 +232,8 @@ a{
 	width: 26%;
 	border-radius: 8px;
 }
+
+a{
+	text-decoration: none;
+}
 }
