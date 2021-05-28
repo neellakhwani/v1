@@ -48,7 +48,7 @@ body{
 }
 
 .big-img{
-	height: 90vh;
+	height: 80vh;
 	margin-left: 20%;
 }
 
@@ -67,15 +67,25 @@ body{
 .project-about{
 	font-weight: 600;
 	font-size: 16px;
-	margin-top: 5%;
+	margin-top: 4%;
 }
 
 .know-more-button{
 	margin-top:4%;
-	padding: 12px 16px 12px 16px;
-	width: 15%;
+	padding: 6px 16px 12px 16px;
+	width: auto;
 	border-radius: 8px;
 	transition: box-shadow 0.2s ease-in-out;
+	border: none;
+	font-size: 15px;
+}
+
+.icon{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	height: 20px;
+	width: auto;
 }
 
 .know-more-button:hover{
@@ -87,6 +97,9 @@ a{
 	text-decoration: none;
 }
 
+.filler{
+	height: 0px;
+}
 
 /*Colors*/
 
@@ -120,6 +133,10 @@ a{
 
 .text-golden{
 	color: #EBC481;
+}
+
+.fill-purple{
+	fill:#8C7BD1;
 }
 
 /*Backgrounds*/
@@ -190,7 +207,7 @@ a{
 }
 
 .project-image{
-	margin: -40px 0 -40px 0;
+	margin: -40px 0 20px 0;
 }
 
 .project-description{
@@ -217,23 +234,35 @@ a{
 .project-about{
 	font-weight: 600;
 	font-size: 16px;
-	margin-top: 5%
+	margin-top: 2%
 }
 
 .big-img{
-	width: 80vw;
+	width: 60vw;
 	height: auto;
 	margin:0;
 }
 
 .know-more-button{
-	margin-top:4%;
-	padding: 12px 16px 12px 16px;
-	width: 36%;
+	/* margin-top:4%; */
+	padding: 6px 16px 12px 16px;
+	width: auto;
 	border-radius: 8px;
+}
+
+.icon{
+	position: relative;
+	top: 4.5px;
+	left: 4px;
+	height: 20px;
+	width: auto;
 }
 
 a{
 	text-decoration: none;
+}
+
+.filler{
+	height: 40px;
 }
 }
