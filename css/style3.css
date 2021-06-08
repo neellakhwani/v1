@@ -8,7 +8,6 @@ body{
 	line-height: 1.4;
 }
 
-
 .landingpage{
 	/* background-size: cover; */
 	background-color: #004A5A;
@@ -83,7 +82,7 @@ body{
 
 .header-title{
 	font-weight: 800;
-	font-size: 70px;
+	font-size: 50px;
 	line-height: 70px;
 	width: 40vw;
 	margin: 0;
@@ -117,22 +116,53 @@ body{
 	font-size: 15px;
 }
 
+.know-more-button:hover{
+	transform: scale(1.05, 1.05);
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.resume-button{
+	margin-top:2%;
+	padding: 6px 16px 12px 16px;
+	width: auto;
+	border-radius: 8px;
+	transition: box-shadow 0.2s ease-in-out;
+	border: none;
+	font-size: 15px;
+}
+
+.resume-button:hover{
+	transform: scale(1.05, 1.05);
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.contact-button{
+	margin-top:3%;
+	margin-left: 2%;
+	padding: 6px 16px 12px 16px;
+	width: auto;
+	border-radius: 8px;
+	transition: box-shadow 0.2s ease-in-out;
+	border: none;
+	font-size: 15px;
+}
+
+.contact-button:hover{
+	transform: scale(1.05, 1.05);
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
 .icon{
 	position: relative;
 	top: 5px;
 	left: 5px;
 	height: 20px;
 	width: auto;
-	border: 2px;
-}
-
-.know-more-button:hover{
-	transform: scale(1.05, 1.05);
-	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 a{
-	text-decoration: none;
+	text-decoration:none;
+	color: inherit;
 }
 
 .filler{
@@ -153,7 +183,7 @@ a{
 	color: #9E9F9F;
 }
 
-.text-green{
+.text-bluegreen{
 	color: #00C6AE;
 }
 
@@ -173,8 +203,28 @@ a{
 	color: #EBC481;
 }
 
+.text-green{
+	color: #5EBE87;
+}
+
 .fill-purple{
 	fill: #8C7BD1;
+}
+
+.fill-bluegreen{
+	fill: #00C6AE;
+}
+
+.fill-pink{
+	fill:#F479D1;
+}
+
+.fill-white{
+	fill:#ffffff;
+}
+
+.fill-green{
+	fill:#5EBE87;
 }
 
 /*Backgrounds*/
@@ -243,17 +293,16 @@ a{
 .flex-container-intro{
 	display: flex;
 		flex-direction: column-reverse;
-		border: 1px solid;
 	}
 
 	.intro{
 		font-size: 15px;
 		margin: 12px 0 0 0;
-		padding: 0;
+		padding: 0 20px 0 20px;
 		color: white;
 		font-weight: 500;
 		text-align: left;
-		width: 90vw;
+		width: 85vw;
 		/* border: 1px solid; */
 	}
 
@@ -290,6 +339,7 @@ a{
 		line-height: 40px;
 		width: 90vw;
 		margin: 25% 0 0 0;
+		padding: 0 10px 0 20px;
 	}
 
 
@@ -341,17 +391,42 @@ a{
 	border-radius: 8px;
 }
 
+.resume-button{
+	margin-top:4%;
+	margin-left: 20px;
+	padding: 6px 16px 12px 16px;
+	width: auto;
+	border-radius: 8px;
+	transition: box-shadow 0.2s ease-in-out;
+	border: none;
+	font-size: 15px;
+}
+
+.resume-button:hover{
+	transform: scale(1.05, 1.05);
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.contact-button{
+	margin-top:10%;
+	margin-left: 3%;
+	padding: 6px 16px 12px 16px;
+	width: auto;
+	border-radius: 8px;
+	transition: box-shadow 0.2s ease-in-out;
+	border: none;
+	font-size: 15px;
+}
+
 .icon{
 	position: relative;
-	top: 4.5px;
+	top: 4.75px;
 	left: 4px;
 	height: 20px;
 	width: auto;
 }
 
-a{
-	text-decoration: none;
-}
+
 
 .filler{
 	height: 40px;
