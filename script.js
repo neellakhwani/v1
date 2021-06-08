@@ -5,7 +5,7 @@
 	document.getElementById("slide3").style.background = "transparent";
 	document.getElementById("slide4").style.background = "transparent";
   document.getElementById("slide5").style.background = "transparent";
-
+  setBackground();
 }
 
  function setBackground(){
