@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,600,800&display=swap');
 
+
 body{
 	padding: 0;
 	margin: 0;
@@ -508,7 +509,6 @@ a{
   color: #00C6AE;
   height: auto;
   position: relative;
-  bottom: 0;
   padding-top: 5%;
 	padding-right: 10%;
   padding-bottom: 20px;
