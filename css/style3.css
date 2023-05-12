@@ -8,6 +8,7 @@ body{
 	transition: .5s;
 	line-height: 1.4;
 	background: #004A5A;
+	font-size: 16px;
 }
 
 .landingpage{
@@ -100,12 +101,14 @@ body{
 
 .project-subtitle{
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-top: 20px;
 }
 
 .project-about{
 	font-weight: 600;
-	font-size: 16px;
+	/* font-size: 16px; */
 	margin-top: 4%;
 }
 
@@ -190,6 +193,10 @@ a{
 	color: #ffffff;
 }
 
+.text-maroon{
+	color:#933966;
+}
+
 .text-dark-gray{
 	color: #404040;
 }
@@ -220,6 +227,10 @@ a{
 
 .text-green{
 	color: #5EBE87;
+}
+
+.fill-maroon{
+	fill: #933966;
 }
 
 .fill-purple{
@@ -460,6 +471,7 @@ a{
 	font-weight: 600;
 	font-size: 15px;
 	padding-bottom: 16px;
+	padding-top: 6px;
 }
 
 .project-about{
